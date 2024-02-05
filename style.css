@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+body
+{
+    background-color: #211c6acb;
+    color: #C6D8D3;
+}
+.container
+{
+    height:30vh;
+    width:100vw;
+    /* border: 2px solid black; */
+}
+
+h1
+{
+    font-size: 2.5cm;
+    font-family: consolas;
+    margin-bottom:3rem;
+    margin-top:1.5rem;
+}
+
+h2
+{
+    font-size: 1cm;
+    font-family: consolas;
+    margin-bottom:2rem;
+    margin-top:2rem;
+    text-decoration: underline;
+}
+
+#inp
+{
+    height:15%;
+    width:70%;
+    margin-left:8%;
+    padding:20px;
+    font-size: x-large;
+    border:2px solid white;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+#btn
+{
+    color:white;
+    background-color: #276137;
+    height:31%;
+    width:10%;
+    /* padding:px; */
+    font-size: x-large;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border:none;
+    cursor:pointer;
+}
+
+#btn:hover
+{
+    background-color: #57bc72;
+}
+
+#bottom
+{
+    width:60vw;
+    height:45vh;
+    margin-left: 20vw;
+    overflow-y: auto;
+    /* border-left: 2px solid gray; */
+    border-radius: 1rem;
+}
+
+.tasks
+{
+    cursor: pointer;
+    background-color: #d81e5cd6;
+    color:white;
+    height:50px;
+    display:flex;
+    justify-content: space-between;
+    padding:15px;
+    padding-left:35px;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: consolas;
+}
+
+.tasks:nth-child(odd)
+{
+    background-color: #f0544fcc;
+}
+.delete
+{
+    cursor: pointer;
+    font-size: large;
+    background: none;
+    border:none;
+    padding-right:10px;
+    visibility: hidden;
+    /* padding:5px; */
+}
+.tasks:hover .delete
+{
+    /* border-left: 3px solid white; */
+    visibility: visible;
+}
+
+
+.scratch
+{   
+    text-decoration: line-through;
+    background-color: #989788;
+    color:white;
+    border-bottom: 1px solid white;
+}
+
+.scratch:nth-child(odd)
+{
+    text-decoration: line-through;
+    background-color: gray;
+    color:white;
+    border-bottom: 1px solid white;
+}
